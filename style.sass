@@ -1,0 +1,89 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/riddick-2.jpeg")
+    background-position: center
+    background-size: cover
+    width: 100%
+    height: 100vh
+
+.container
+    color: white
+
+.header
+    height: 10%
+
+.logo
+    width: 150px
+    margin-top: 18px
+    margin-left: -36px
+
+.header-btn
+    text-decoration: none
+    padding: 7px 20px
+    float: right
+    margin-top: 25px
+    color: #333
+    font-weight: 600
+    background: #fff
+
+.movie-details
+    margin: 3% 0
+
+.left-box
+    color: #fff
+    margin: 15px 0
+    padding: 20px
+    a
+        text-decoration: none
+        padding: 7px 20px
+        margin-top: 35px
+        color: #333
+        font-weight: 600
+        background: #fff
+        display: inline-block
+        margin-right: 30px
+        cursor: pointer
+
+.download-btn
+    background: transparent !important
+    border: 1px solid #fff !important
+    color: #fff !important
+    cursor: pointer
+
+.casting
+    img
+        height: 60px
+        width: 50px
+
+i
+    margin-right: .5em
+
+.text-center
+
+.movie-img
+    height: 350px
+    box-shadow: -4px 4px 5px 0 #000
+
+.series
+    img
+        width: 100%
+        height: 250px
+        margin-top: 15px
+        box-shadow: -4px 4px 5px 0px #000
+        cursor: pointer
+        transition: 1s
+        &:hover
+            transform: translateY(-10px)
+
+@media(max-width: 768px)
+    .logo
+        width: 100px
+        margin-top: 18px
+        margin-left: 10px
+    .left-box
+        a
+            margin-left: 100px
